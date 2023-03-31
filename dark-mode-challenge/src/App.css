@@ -1,0 +1,33 @@
+*
+{
+  box-sizing: border-box;
+}
+
+.main-container
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.main-container > button
+{
+  padding: 0.938rem;
+  outline: none;
+  border: none;
+  margin-right: 0.938rem;
+  cursor: pointer;
+}
+
+.light-mode-btn
+{
+  border: 3px solid #010101 !important
+}
+
+.dark-mode, .dark-mode-btn
+{
+  background-color: #010101;
+  color: #f1f1f1;
+}
